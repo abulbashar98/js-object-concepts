@@ -161,7 +161,8 @@ const entries = Object.entries(student);
     ]
   ],
   [ 'entranceExam', [Function: entranceExam] ],
-  [ 'currentBallance', [Function: currentBallance] ]
+  [ 'currentBallance', [Function: currentBallance] 
+]
 ]*/
 
 for (const [key, value] of Object.entries(student)) {
