@@ -11,7 +11,7 @@ const values = Object.values(phone);
 
 
 
-//Note:- thepairing of Key and value is called an entry together; given as two dimensional Array..
+//Note:- the pairing of Key and value is called an "entry"; given as two dimensional Array..
 const entries = Object.entries(phone);
 // console.log(entries);
 
