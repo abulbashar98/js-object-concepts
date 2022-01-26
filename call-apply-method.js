@@ -1,25 +1,25 @@
 const student = {
-    nname: 'Abul Bashar',
-    id: 101,
-    age: 24,
-    balance: 1500000,
-    migrated: false,
-    currentBallance: function (tutionFee, livingCost) {
-        this.balance = this.balance - tutionFee - livingCost;
-        console.log('from here', this)
-        return this.balance;
-    }
+  nname: 'Abul Bashar',
+  id: 101,
+  age: 24,
+  balance: 1500000,
+  migrated: false,
+  currentBallance: function (tutionFee, livingCost) {
+    this.balance = this.balance - tutionFee - livingCost;
+    console.log('from here', this)
+    return this.balance;
+  }
 }
 
 
 
 
 const student2 = {
-    name: 'Naymur Rahman Nabil',
-    id: 102,
-    age: 25,
-    balance: 2500000,
-    migrated: true
+  name: 'Naymur Rahman Nabil',
+  id: 102,
+  age: 25,
+  balance: 2500000,
+  migrated: true
 }
 
 /* NOTE:-
@@ -67,11 +67,11 @@ from here {
 
 // 3.
 const student3 = {
-    name: 'Abu Naim Heera',
-    id: 102,
-    age: 25,
-    balance: 5000000,
-    migrated: true
+  name: 'Abu Naim Heera',
+  id: 102,
+  age: 25,
+  balance: 5000000,
+  migrated: true
 }
 student.currentBallance.apply(student3, [200000, 500000])
 /*======>
