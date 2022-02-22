@@ -104,16 +104,16 @@ Object.freeze(phone3);
 // 1.
 delete phone3.name;
 // console.log(phone3);
-//====> { name: 'oneplus 9c', price: 36000, ram: 8, rom: 128, color: 'sky blue' }
+//====> { name: 'onePlus 9c', price: 36000, ram: 8, rom: 128, color: 'sky blue' }
 
 
 // 2.
 phone3.brand = 'OnePlus';
 // console.log(phone3);  
-//====>  { name: 'oneplus 9c', price: 36000, ram: 8, rom: 128, color: 'sky blue' }
+//====>  { name: 'onePlus 9c', price: 36000, ram: 8, rom: 128, color: 'sky blue' }
 
 // 3. 
 phone3.rom = 256;
 // console.log(phone3);
-//====> { name: 'oneplus 9c', price: 36000, ram: 8, rom: 128, color: 'sky blue' }
+//====> { name: 'onePlus 9c', price: 36000, ram: 8, rom: 128, color: 'sky blue' }
 

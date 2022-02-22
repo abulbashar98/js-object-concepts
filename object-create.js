@@ -32,3 +32,18 @@ const bloom = new Group('bloom', 25, 'front-end-development')
 console.log(bloom);
 
 //====> Group { name: 'bloom', members: 25, task: 'front-end-development' }
+
+
+
+// 5. Before es6---> function
+
+function Team(name, game) {
+
+    this.name = name;
+    this.game = game;
+
+}
+const school = new Team('ahad', 'stealth');
+console.log(school);
+
+//=====>Team { name: 'ahad', game: 'stealth' }

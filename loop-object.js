@@ -1,19 +1,19 @@
 
 const student = {
-    nname: 'Abul Bashar',
-    id: 101,
-    age: 25,
-    balance: 1500000,
-    migrated: false,
-    major: 'Information Technology',
-    subjects: ['English', 'Physics', 'Finish', 'Math 1', 'Math 2', 'Basics of Programming'],
-    entranceExam: function () {
-        console.log(this.nname, 'taking exam on 9th of February')
-    },
-    currentBallance: function (tutionFee, livingCost) {
-        this.balance = this.balance - tutionFee - livingCost;
-        return this.balance;
-    }
+  nname: 'Abul Bashar',
+  id: 101,
+  age: 25,
+  balance: 1500000,
+  migrated: false,
+  major: 'Information Technology',
+  subjects: ['English', 'Physics', 'Finish', 'Math 1', 'Math 2', 'Basics of Programming'],
+  entranceExam: function () {
+    console.log(this.nname, 'taking exam on 9th of February')
+  },
+  currentBallance: function (tutionFee, livingCost) {
+    this.balance = this.balance - tutionFee - livingCost;
+    return this.balance;
+  }
 }
 
 /*
@@ -39,7 +39,7 @@ Several ways of looping an Object
 
 // 1.
 for (const prop in student) {
-    // console.log(prop);
+  // console.log(prop);
 }
 /*=====> 
 nname
@@ -54,7 +54,7 @@ currentBallance
 */
 
 for (const prop in student) {
-    // console.log(prop, student[prop])
+  // console.log(prop, student[prop])
 }
 /*=======>
 nname Abul Bashar
@@ -74,7 +74,7 @@ subjects [
 entranceExam [Function: entranceExam]
 currentBallance [Function: currentBallance]
 PS C:\Main Projects\js-object-concepts> node loop-object.js
-nname Abul Bashar
+name Abul Bashar
 id 101
 age 25
 balance 1500000
@@ -112,7 +112,7 @@ const keys = Object.keys(student);
 ]
 */
 for (const key of keys) {
-    // console.log(key, student[key])
+  // console.log(key, student[key])
 }
 /*====>
 nname Abul Bashar
@@ -166,7 +166,7 @@ const entries = Object.entries(student);
 ]*/
 
 for (const [key, value] of Object.entries(student)) {
-    console.log(key, student[key]);
+  console.log(key, value);
 }
 /*====>
 nname Abul Bashar

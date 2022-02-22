@@ -29,7 +29,7 @@ else {
 /*
 Several ways to compare objects with 2/3 equals:
 1. by comparing their Stringified version......
-2. Comapre them by using a compare function. 
+2. Compare them by using a compare function. 
 *in which first we compare The length of an Array given by Keys function.....
 *if the 1st condition is okay then we compare their values by using for in loop.....
 */
@@ -54,7 +54,7 @@ else {
 
 
 // 2.
-// Note: Now with our first way of comparing objects we wont be able to compare correctly when the order of Entries are not the same.....
+// Note: Now with our first way of comparing objects we wont be able to compare correctly when the Order of Entries are not the same.....
 // Example:
 
 const person1 = { name: 'rakib', age: 25 }
